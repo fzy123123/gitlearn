@@ -145,7 +145,7 @@ public class Main {
         Class<?> srcClazz = src.getClass();
         Class<?> tarClazz = target.getClass();
 
-        Field[] clazzDeclaredField = srcClazz.getDeclaredField();
+//        Field[] clazzDeclaredField = srcClazz.getDeclaredField();
 
     }
 
