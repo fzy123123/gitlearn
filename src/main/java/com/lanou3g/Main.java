@@ -149,4 +149,32 @@ public class Main {
 
     }
 
+
+    /*
+    git init           将当前目录初始化为git仓库
+    git status         查看git状态
+    git add            将某个文件添加到暂存区
+    git add .          将所有添加到暂存区
+    git commit -m       消息  将暂存区的记录进行提交
+    git remote          查看当前Git仓库关联了哪些远程仓库,显示远程仓库的名字
+    git remote add [origin]   [url]  为当前仓库绑定一个远程仓库
+                origin  表示远程仓库名字
+                url   表示远程仓库的地址
+    git remote remove [origin]  解除与某个远程仓库的关联
+    git push -u origin    推送当前的分支,并与远程分支绑定
+
+    git push  将当前分支推送到之前绑定的远程分支上
+    git push origin master  将本地分支推送到远程某个分支,不绑定
+    git pull origin master  将远程仓库的某个分支拉取到当前分支上
+    git pull   根据之情绑定的形式自动拉取
+    git log    查看提交记录(内容比较详细)
+    git relog  查看提交记录(内容比较简洁)
+    git clone [url]  将某个远程仓库地址克隆到本地
+
+    git checkout -b  分支名  创建新分支并切换
+    git checkout  分支名  切换分支
+    git branch  查看所有分支
+     */
+
+
 }
